@@ -20,6 +20,8 @@ window.onload = function() {
             
         }else{
             document.getElementById("timer").innerHTML = "tempo scaduto";
+            
+            let indovina = prompt("inserisci il primo numero che hai visualizzato")
         }
     }, 1000)
 }
